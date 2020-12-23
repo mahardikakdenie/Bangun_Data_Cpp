@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
     char Pilihan;
     do
     {
-            int Input;
+    int Input;
     MainMenu:
     system("cls");
     cout<<"Masukan Jumlah Perulangan : ";cin>>Input;
@@ -72,7 +72,7 @@ int main(int argc, char const *argv[])
     }else{
         goto MainMenu;
     }
-    
+
         cout<<"Lagi [ Y / N ] : ";cin>>Pilihan;
     } while (Pilihan == 'Y' || Pilihan == 'y');
     
