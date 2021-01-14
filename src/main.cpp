@@ -15,9 +15,9 @@ int main(int argc, char const *argv[])
         if(Input > 3){
             cout << "\nPola Ke 1\n"<< endl;
 
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < Input; i++)
             {
-                for (int v = 0; v < 6; v++)
+                for (int v = 0; v < Input; v++)
                 {
                     cout << "*";
                 }
@@ -26,11 +26,11 @@ int main(int argc, char const *argv[])
 
             cout << "\nPola 2\n"<< endl;
 
-            for (int i = 1; i <= 6; i++)
+            for (int i = 1; i <= Input; i++)
             {
-                for (int v = 1; v <= 6; v++)
+                for (int v = 1; v <= Input; v++)
                 {
-                    if (i == 1 || i == 6 || v == 1 || v == 6)
+                    if (i == 1 || i == Input || v == 1 || v == Input)
                     {
                         cout << "*";
                     }
@@ -44,7 +44,7 @@ int main(int argc, char const *argv[])
 
             cout << "\nPola 3\n"<< endl;
 
-            for (int i = 1; i <= 6; i++)
+            for (int i = 1; i <= Input; i++)
             {
 
                 for (int b = 1; b <= i; b++)
@@ -57,13 +57,13 @@ int main(int argc, char const *argv[])
 
             cout << "\nPola 4\n"<< endl;
 
-            for (int i = 1; i <= 6; i++)
+            for (int i = 1; i <= Input; i++)
             {
                 for (int z = 1; z < i; z++)
                 {
                     cout << " ";
                 }
-                for (int o = 6; o >= i; o--)
+                for (int o = Input; o >= i; o--)
                 {
                     cout << "*";
                 }
